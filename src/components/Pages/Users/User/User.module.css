@@ -1,0 +1,9 @@
+
+.userInfo{
+    display: flex;
+    margin: 30px auto;
+}
+.userLogo {
+    width: 100px;
+    border-radius: 50%;
+}

@@ -1,0 +1,14 @@
+.dialog{
+    padding:5px;
+}
+.dialog a{
+    text-decoration: none;
+    color: black;
+}
+.dialog a.active{
+    color: orange;
+}
+.dialog img {
+    width: 50px;
+    border-radius: 50%;
+}

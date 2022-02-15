@@ -1,0 +1,11 @@
+.item {
+    display: flex;
+    align-items: center;
+    color: brown;
+    margin-top: 15px;
+}
+.item img {
+    margin-right: 10px;
+    width: 50px;
+    border-radius: 50%;
+}

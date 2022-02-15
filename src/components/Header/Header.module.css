@@ -1,0 +1,23 @@
+.header {
+    grid-area: h;
+    background-color:#B5F2EA ;
+    font-family: Roboto, serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 35px;
+}
+.header img{
+    width: 45px;
+}
+.header a{
+    text-align: center;
+    color: dodgerblue;
+    text-decoration: none;
+}
+.item a.active{
+    color: gold;
+}
+.item a:hover{
+    color: #ff5e3a;
+}
