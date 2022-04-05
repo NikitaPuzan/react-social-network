@@ -19,7 +19,7 @@ const Login = ({login, isAuth}) => {
         .email('Enter a valid email')
         .required('Email is required'),
       password: yup.string('Enter your password')
-        .min(6, 'Minimum 6 characters length')
+        .min(3, 'Minimum 3 characters length')
         .max(18, 'Maximum 18 characters length')
         .required('Password is required'),
       rememberMe: yup.boolean()

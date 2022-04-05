@@ -4,7 +4,7 @@ import messagesReducer from "./messages-reducer";
 import usersReducer from "./users-reducer";
 import authReducer from "./auth-reducer";
 import thunk from "redux-thunk";
-import appReducer from "./app-reducer";
+import appReducer from "./app-reducer.js";
 
 
 let reducers = combineReducers({
